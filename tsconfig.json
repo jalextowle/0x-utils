@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "rootDir": "src",
+        "module": "commonjs",
+        "target": "es2016",
+        "lib": ["es2017", "dom"],
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "skipLibCheck": true,
+        "typeRoots": ["node_modules/@0x/typescript-typings/types", "node_modules/@types"],
+        "strict": true,
+        "allowJs": true,
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true
+    },
+    "include": ["./src/**/*"]
+}
